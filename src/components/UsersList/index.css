@@ -1,0 +1,73 @@
+.update-container {
+  margin-top: 0.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+}
+
+label {
+  margin-right: 2vw;
+  font-weight: bold;
+}
+.update-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: rgb(153, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 3vh;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1vh;
+}
+.update-btn {
+  margin-left: 2vw;
+  margin-right: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: rgb(57, 73, 146);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: rgb(0, 255, 76);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 3vh;
+}
+.delete-button {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: rgb(255, 38, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
